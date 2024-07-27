@@ -1,0 +1,97 @@
+[05-Nov-2020 12:42:11 UTC] PHP Fatal error:  Allowed memory size of 1610612736 bytes exhausted (tried to allocate 4096 bytes) in phar:///opt/cpanel/composer/bin/composer/src/Composer/DependencyResolver/RuleWatchGraph.php on line 52
+[05-Nov-2020 14:00:20 UTC] PHP Fatal error:  Allowed memory size of 1610612736 bytes exhausted (tried to allocate 4096 bytes) in phar:///opt/cpanel/composer/bin/composer/src/Composer/DependencyResolver/RuleWatchGraph.php on line 52
+[24-Nov-2020 09:30:21 UTC] PHP Fatal error:  Allowed memory size of 1610612736 bytes exhausted (tried to allocate 4096 bytes) in phar:///opt/cpanel/composer/bin/composer/src/Composer/DependencyResolver/RuleWatchGraph.php on line 52
+[09-Dec-2020 11:07:40 UTC] PHP Fatal error:  Allowed memory size of 1610612736 bytes exhausted (tried to allocate 528384 bytes) in phar:///opt/cpanel/composer/bin/composer/src/Composer/DependencyResolver/Pool.php on line 221
+[09-Dec-2020 11:50:25 UTC] PHP Fatal error:  Allowed memory size of 1610612736 bytes exhausted (tried to allocate 528384 bytes) in phar:///opt/cpanel/composer/bin/composer/src/Composer/DependencyResolver/Pool.php on line 221
+[09-Dec-2020 12:15:38 UTC] PHP Fatal error:  Allowed memory size of 1610612736 bytes exhausted (tried to allocate 528384 bytes) in phar:///opt/cpanel/composer/bin/composer/src/Composer/DependencyResolver/Pool.php on line 221
+[27-Apr-2021 08:16:03 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Application' not found in /home/dashbaai/public_html/laravel/laravel_7_dashboard/bootstrap/app.php:14
+Stack trace:
+#0 /home/dashbaai/public_html/laravel/laravel_7_dashboard/artisan(20): require_once()
+#1 {main}
+  thrown in /home/dashbaai/public_html/laravel/laravel_7_dashboard/bootstrap/app.php on line 14
+[27-Apr-2021 08:16:30 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Application' not found in /home/dashbaai/public_html/laravel/laravel_7_dashboard/bootstrap/app.php:14
+Stack trace:
+#0 /home/dashbaai/public_html/laravel/laravel_7_dashboard/artisan(20): require_once()
+#1 {main}
+  thrown in /home/dashbaai/public_html/laravel/laravel_7_dashboard/bootstrap/app.php on line 14
+[27-Apr-2021 08:17:13 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Application' not found in /home/dashbaai/public_html/laravel/laravel_7_dashboard/bootstrap/app.php:14
+Stack trace:
+#0 /home/dashbaai/public_html/laravel/laravel_7_dashboard/artisan(20): require_once()
+#1 {main}
+  thrown in /home/dashbaai/public_html/laravel/laravel_7_dashboard/bootstrap/app.php on line 14
+[27-Apr-2021 08:21:23 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Application' not found in /home/dashbaai/public_html/laravel/laravel_7_dashboard/bootstrap/app.php:14
+Stack trace:
+#0 /home/dashbaai/public_html/laravel/laravel_7_dashboard/artisan(20): require_once()
+#1 {main}
+  thrown in /home/dashbaai/public_html/laravel/laravel_7_dashboard/bootstrap/app.php on line 14
+[27-Apr-2021 11:21:45 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Class 'App\Exceptions\ExceptionHandler' not found in /home/dashbaai/public_html/laravel/laravel_7_dashboard/app/Exceptions/Handler.php:8
+Stack trace:
+#0 /home/dashbaai/public_html/laravel/laravel_7_dashboard/vendor/composer/ClassLoader.php(444): include()
+#1 /home/dashbaai/public_html/laravel/laravel_7_dashboard/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/home/dashbaai/...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Exceptions\\...')
+#3 [internal function]: spl_autoload_call('App\\Exceptions\\...')
+#4 /home/dashbaai/public_html/laravel/laravel_7_dashboard/vendor/laravel/framework/src/Illuminate/Container/Container.php(809): ReflectionClass->__construct('App\\Exceptions\\...')
+#5 /home/dashbaai/public_html/laravel/laravel_7_dashboard/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build('App\\Exceptions\\...')
+#6 /home/dashbaai/public_html/laravel/laravel_7_dashboard/vendor/laravel/frame in /home/dashbaai/public_html/laravel/laravel_7_dashboard/app/Exceptions/Handler.php on line 8
+[27-Apr-2021 11:21:45 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Class 'App\Exceptions\ExceptionHandler' not found in /home/dashbaai/public_html/laravel/laravel_7_dashboard/app/Exceptions/Handler.php:8
+Stack trace:
+#0 /home/dashbaai/public_html/laravel/laravel_7_dashboard/vendor/composer/ClassLoader.php(444): include()
+#1 /home/dashbaai/public_html/laravel/laravel_7_dashboard/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/home/dashbaai/...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Exceptions\\...')
+#3 [internal function]: spl_autoload_call('App\\Exceptions\\...')
+#4 /home/dashbaai/public_html/laravel/laravel_7_dashboard/vendor/laravel/framework/src/Illuminate/Container/Container.php(809): ReflectionClass->__construct('App\\Exceptions\\...')
+#5 /home/dashbaai/public_html/laravel/laravel_7_dashboard/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build('App\\Exceptions\\...')
+#6 /home/dashbaai/public_html/laravel/laravel_7_dashboard/vendor/laravel/frame in /home/dashbaai/public_html/laravel/laravel_7_dashboard/app/Exceptions/Handler.php on line 8
+[27-Apr-2021 11:22:53 Asia/Riyadh] PHP Fatal error:  Class 'App\Exceptions\ExceptionHandler' not found in /home/dashbaai/public_html/laravel/laravel_7_dashboard/app/Exceptions/Handler.php on line 8
+[27-Apr-2021 11:22:53 Asia/Riyadh] PHP Fatal error:  Uncaught ReflectionException: Class App\Exceptions\Handler does not exist in /home/dashbaai/public_html/laravel/laravel_7_dashboard/vendor/laravel/framework/src/Illuminate/Container/Container.php:809
+Stack trace:
+#0 /home/dashbaai/public_html/laravel/laravel_7_dashboard/vendor/laravel/framework/src/Illuminate/Container/Container.php(809): ReflectionClass->__construct('App\\Exceptions\\...')
+#1 /home/dashbaai/public_html/laravel/laravel_7_dashboard/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build('App\\Exceptions\\...')
+#2 /home/dashbaai/public_html/laravel/laravel_7_dashboard/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve('App\\Exceptions\\...', Array, false)
+#3 /home/dashbaai/public_html/laravel/laravel_7_dashboard/vendor/laravel/framework/src/Illuminate/Container/Container.php(269): Illuminate\Foundation\Application->resolve('App\\Exceptions\\...', Array, false)
+#4 /home/dashbaai/publ in /home/dashbaai/public_html/laravel/laravel_7_dashboard/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[27-Apr-2021 11:23:09 Asia/Riyadh] PHP Fatal error:  Class 'App\Exceptions\ExceptionHandler' not found in /home/dashbaai/public_html/laravel/laravel_7_dashboard/app/Exceptions/Handler.php on line 8
+[27-Apr-2021 11:23:09 Asia/Riyadh] PHP Fatal error:  Uncaught ReflectionException: Class App\Exceptions\Handler does not exist in /home/dashbaai/public_html/laravel/laravel_7_dashboard/vendor/laravel/framework/src/Illuminate/Container/Container.php:809
+Stack trace:
+#0 /home/dashbaai/public_html/laravel/laravel_7_dashboard/vendor/laravel/framework/src/Illuminate/Container/Container.php(809): ReflectionClass->__construct('App\\Exceptions\\...')
+#1 /home/dashbaai/public_html/laravel/laravel_7_dashboard/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build('App\\Exceptions\\...')
+#2 /home/dashbaai/public_html/laravel/laravel_7_dashboard/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve('App\\Exceptions\\...', Array, false)
+#3 /home/dashbaai/public_html/laravel/laravel_7_dashboard/vendor/laravel/framework/src/Illuminate/Container/Container.php(269): Illuminate\Foundation\Application->resolve('App\\Exceptions\\...', Array, false)
+#4 /home/dashbaai/publ in /home/dashbaai/public_html/laravel/laravel_7_dashboard/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[27-Apr-2021 11:24:15 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Class 'App\Exceptions\ExceptionHandler' not found in /home/dashbaai/public_html/laravel/laravel_7_dashboard/app/Exceptions/Handler.php:8
+Stack trace:
+#0 /home/dashbaai/public_html/laravel/laravel_7_dashboard/vendor/composer/ClassLoader.php(444): include()
+#1 /home/dashbaai/public_html/laravel/laravel_7_dashboard/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/home/dashbaai/...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Exceptions\\...')
+#3 [internal function]: spl_autoload_call('App\\Exceptions\\...')
+#4 /home/dashbaai/public_html/laravel/laravel_7_dashboard/vendor/laravel/framework/src/Illuminate/Container/Container.php(809): ReflectionClass->__construct('App\\Exceptions\\...')
+#5 /home/dashbaai/public_html/laravel/laravel_7_dashboard/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build('App\\Exceptions\\...')
+#6 /home/dashbaai/public_html/laravel/laravel_7_dashboard/vendor/laravel/frame in /home/dashbaai/public_html/laravel/laravel_7_dashboard/app/Exceptions/Handler.php on line 8
+[27-Apr-2021 11:24:15 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Class 'App\Exceptions\ExceptionHandler' not found in /home/dashbaai/public_html/laravel/laravel_7_dashboard/app/Exceptions/Handler.php:8
+Stack trace:
+#0 /home/dashbaai/public_html/laravel/laravel_7_dashboard/vendor/composer/ClassLoader.php(444): include()
+#1 /home/dashbaai/public_html/laravel/laravel_7_dashboard/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/home/dashbaai/...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Exceptions\\...')
+#3 [internal function]: spl_autoload_call('App\\Exceptions\\...')
+#4 /home/dashbaai/public_html/laravel/laravel_7_dashboard/vendor/laravel/framework/src/Illuminate/Container/Container.php(809): ReflectionClass->__construct('App\\Exceptions\\...')
+#5 /home/dashbaai/public_html/laravel/laravel_7_dashboard/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build('App\\Exceptions\\...')
+#6 /home/dashbaai/public_html/laravel/laravel_7_dashboard/vendor/laravel/frame in /home/dashbaai/public_html/laravel/laravel_7_dashboard/app/Exceptions/Handler.php on line 8
+[27-Apr-2021 11:26:18 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Class 'App\Exceptions\ExceptionHandler' not found in /home/dashbaai/public_html/laravel/laravel_7_dashboard/app/Exceptions/Handler.php:8
+Stack trace:
+#0 /home/dashbaai/public_html/laravel/laravel_7_dashboard/vendor/composer/ClassLoader.php(444): include()
+#1 /home/dashbaai/public_html/laravel/laravel_7_dashboard/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/home/dashbaai/...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Exceptions\\...')
+#3 [internal function]: spl_autoload_call('App\\Exceptions\\...')
+#4 /home/dashbaai/public_html/laravel/laravel_7_dashboard/vendor/laravel/framework/src/Illuminate/Container/Container.php(809): ReflectionClass->__construct('App\\Exceptions\\...')
+#5 /home/dashbaai/public_html/laravel/laravel_7_dashboard/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build('App\\Exceptions\\...')
+#6 /home/dashbaai/public_html/laravel/laravel_7_dashboard/vendor/laravel/frame in /home/dashbaai/public_html/laravel/laravel_7_dashboard/app/Exceptions/Handler.php on line 8
+[27-Apr-2021 11:26:18 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Class 'App\Exceptions\ExceptionHandler' not found in /home/dashbaai/public_html/laravel/laravel_7_dashboard/app/Exceptions/Handler.php:8
+Stack trace:
+#0 /home/dashbaai/public_html/laravel/laravel_7_dashboard/vendor/composer/ClassLoader.php(444): include()
+#1 /home/dashbaai/public_html/laravel/laravel_7_dashboard/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/home/dashbaai/...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Exceptions\\...')
+#3 [internal function]: spl_autoload_call('App\\Exceptions\\...')
+#4 /home/dashbaai/public_html/laravel/laravel_7_dashboard/vendor/laravel/framework/src/Illuminate/Container/Container.php(809): ReflectionClass->__construct('App\\Exceptions\\...')
+#5 /home/dashbaai/public_html/laravel/laravel_7_dashboard/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build('App\\Exceptions\\...')
+#6 /home/dashbaai/public_html/laravel/laravel_7_dashboard/vendor/laravel/frame in /home/dashbaai/public_html/laravel/laravel_7_dashboard/app/Exceptions/Handler.php on line 8
+[15-May-2022 13:53:28 UTC] PHP Warning:  Module "Phar" is already loaded in Unknown on line 0

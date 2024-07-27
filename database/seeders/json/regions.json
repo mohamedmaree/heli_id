@@ -1,0 +1,137 @@
+[
+    {
+        "country_id": 195,
+        "name_ar": "الرياض",
+        "name_en": "Riyadh",
+        "center": [
+            28.41463997,
+            36.53387003
+        ]
+    },
+    {
+        "country_id": 195,
+        "name_ar": "مكة المكرمة",
+        "name_en": "Makkah Al Mukarramah",
+        "center": [
+            28.30507995,
+            35.74931003
+        ]
+    },
+    {
+        "country_id": 195,
+        "name_ar": "المدينة المنورة",
+        "name_en": "Al Madinah Al Munawwarah",
+        "center": [
+            24.69999996,
+            46.73333003
+        ]
+    },
+    {
+        "country_id": 195,
+        "name_ar": "القصيم",
+        "name_en": "Qassim",
+        "center": [
+            28.65152001,
+            35.38013
+        ]
+    },
+    {
+        "country_id": 195,
+        "name_ar": "الشرقية",
+        "name_en": "Eastern",
+        "center": [
+            21.26848005,
+            40.41667003
+        ]
+    },
+    {
+        "country_id": 195,
+        "name_ar": "عسير",
+        "name_en": "Aseer",
+        "center": [
+            21.42717994,
+            39.84349001
+        ]
+    },
+    {
+        "country_id": 195,
+        "name_ar": "تبوك",
+        "name_en": "Tabuk",
+        "center": [
+            29.60751999,
+            37.23556001
+        ]
+    },
+    {
+        "country_id": 195,
+        "name_ar": "حائل",
+        "name_en": "Hail",
+        "center": [
+            29.60751999,
+            37.23556001
+        ]
+    },
+    {
+        "country_id": 195,
+        "name_ar": "جازان",
+        "name_en": "Jazan",
+        "center": [
+            29.60751999,
+            37.23556001
+        ]
+    },
+    {
+        "country_id": 117,
+        "name_ar": " العاصمة (الكويت)",
+        "name_en": "Capital (Kuwait)",
+        "center": [
+            29.311661,
+            47.481766
+        ]
+    },
+    {
+        "country_id": 117,
+        "name_ar": " الأحمدي",
+        "name_en": "Ahmadi",
+        "center": [
+            29.311661,
+            47.481766
+        ]
+    } ,
+    {
+        "country_id": 117,
+        "name_ar": "الجهراء",
+        "name_en": "Jahra",
+        "center": [
+            29.311661,
+            47.481766
+        ]
+    } ,
+    {
+        "country_id": 117,
+        "name_ar": "الفروانية",
+        "name_en": "Al Farwaniyah",
+        "center": [
+            29.311661,
+            47.481766
+        ]
+    } ,
+    {
+        "country_id": 117,
+        "name_ar": "حولي",
+        "name_en": "Hawalli ",
+        "center": [
+            29.311661,
+            47.481766
+        ]
+    } ,
+    {
+        "country_id": 117,
+        "name_ar": "مبارك الكبير",
+        "name_en": "Mubarak the Great ",
+        "center": [
+            29.311661,
+            47.481766
+        ]
+    }    
+]

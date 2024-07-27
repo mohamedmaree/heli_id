@@ -1,0 +1,176 @@
+.table_loader {
+    content ="Loading";
+    background-color: #171924;
+    color: white;
+    opacity: 0.9;
+    font-family: PT Sans Narrow;
+
+    font-size: 30px;
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.table_loader:after {
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: bottom;
+    -webkit-animation: ellipsis steps(5,end) 1000ms infinite;      
+    animation: ellipsis steps(5,end) 1000ms infinite;
+    content: "\2026\2026"; /* ascii code for the ellipsis character */
+    width: 0px;
+}
+
+@keyframes ellipsis {
+    to {
+        width: 1.15em;    
+    }
+}
+
+@-webkit-keyframes ellipsis {
+    to {
+        width: 1.5em;    
+    }
+}
+.controls{
+    position: relative;
+    border-radius: 5px
+}
+.clean-input{
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 1px solid;
+    padding: 8px;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    transition: all .3s ease-in-out;
+    font-size: 10px
+}
+.clean-input:hover{
+    color: #ff2222;
+    cursor: pointer;
+}
+
+
+
+body .table {
+    background: none!important;
+    background: none!important;
+    /* border: 11px solid #f2eeee; */
+    box-shadow: 0px 0px 50px #00000022;
+    background: #fff
+    /* border-top: none; */
+}
+
+body.dark-layout .table {
+    background: none!important;
+    background: none!important;
+    border: 11px solid #212744;
+    border-top: none;
+}
+
+tr{
+    transition: all .2s ease-in-out
+}
+thead tr{
+    background: #f2eeee;
+}
+
+thead th{
+    margin: none;
+    border: none!important;
+}
+
+body.dark-layout .table thead tr{
+    background: #212744
+}
+
+tbody tr{
+    border-bottom: 2px solid #f2eeee
+}
+
+body.dark-layout tbody tr{
+    border-bottom: 2px solid #212744
+}
+
+/* tbody tr:hover{
+    transform: translateY(-5px) ;
+     box-shadow: 0px 5px 5px #00000011 
+} 
+*/
+
+body.dark-layout .table tbody tr td{
+    background: none!important
+}
+.print-btns button{
+    color: #fff!important
+}
+
+.pagination .page-item .page-link{
+    border-radius: 0!important;
+    border: 1px solid #00000022;
+    margin: 1px
+}
+
+body.dark-layout .pagination .page-item .page-link{
+    border: 1px solid #ffffff33;
+}
+
+.pagination .page-item.active{
+    border-radius: none!important;
+}
+
+.modal-dialog{
+    min-width: 80%!important;
+  }
+
+  .modal-dialog .modal-body::-webkit-scrollbar {
+    width: 10px!important;
+  }
+
+  /* Track */
+  .modal-dialog .modal-body::-webkit-scrollbar-track {
+    background: #f1f1f1!important;
+  }
+
+  /* Handle */
+  .modal-dialog .modal-body::-webkit-scrollbar-thumb {
+    background: #888!important;
+  }
+
+  /* Handle on hover */
+  .modal-dialog .modal-body::-webkit-scrollbar-thumb:hover {
+    background: #555!important;
+  }
+
+  thead tr {
+    background: #e3e6e9;
+}
+
+.container-checkbox .checkmark {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    height: 20px;
+    width: 20px;
+    background-color: #fff;
+    border: 2px solid #cfcfd1;
+    border-radius: 5px;
+}
+
+body .table {
+    box-shadow: none;
+    background: #fff /* border-top: none;; */;
+}
