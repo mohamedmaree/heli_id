@@ -1,0 +1,20 @@
+{
+  "MAP"  : {
+    "ar" : "قام بارسال الموقع",
+    "en" : "send you location",
+    "tu" : "",
+    "fr" : ""
+  },
+  "IMAGE": {
+    "ar" : "قام بارسال صورة",
+    "en" : "send you image",
+    "tu" : "",
+    "fr" : ""
+  },
+  "SOUND": {
+    "ar" : "قام بارسال تسجيل صوتي",
+    "en" : "send you sound record",
+    "tu" : "",
+    "fr" : ""
+  }
+}

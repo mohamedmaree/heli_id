@@ -1,0 +1,932 @@
+[
+  {
+    "region_id": 7,
+    "country_id": 195,
+    "name_ar": "تبوك",
+    "name_en": "Tabuk",
+    "center": [
+      28.41463997,
+      36.53387003
+    ]
+  },
+  {
+    "region_id": 7,
+    "country_id": 195,
+    "name_ar": "نعمي",
+    "name_en": "Na'mi",
+    "center": [
+      28.30507995,
+      35.74931003
+    ]
+  },
+  {
+    "region_id": 1,
+    "country_id": 195,
+    "name_ar": "الرياض",
+    "name_en": "Riyadh",
+    "center": [
+      24.69999996,
+      46.73333003
+    ]
+  },
+  {
+    "region_id": 7,
+    "country_id": 195,
+    "name_ar": "حميط",
+    "name_en": "Humayt",
+    "center": [
+      28.65152001,
+      35.38013
+    ]
+  },
+  {
+    "region_id": 2,
+    "country_id": 195,
+    "name_ar": "الطائف",
+    "name_en": "At Taif",
+    "center": [
+      21.26848005,
+      40.41667003
+    ]
+  },
+  {
+    "region_id": 2,
+    "country_id": 195,
+    "name_ar": "مكة المكرمة",
+    "name_en": "Makkah Al Mukarramah",
+    "center": [
+      21.42717994,
+      39.84349001
+    ]
+  },
+  {
+    "region_id": 7,
+    "country_id": 195,
+    "name_ar": "رجم الطيارة",
+    "name_en": "Rajm At Tayarah",
+    "center": [
+      29.60751999,
+      37.23556001
+    ]
+  },
+  {
+    "region_id": 7,
+    "country_id": 195,
+    "name_ar": "الثميد",
+    "name_en": "Ath Thumayd",
+    "center": [
+      29.93183995,
+      37.16726002
+    ]
+  },
+  {
+    "region_id": 7,
+    "country_id": 195,
+    "name_ar": "عسيلة",
+    "name_en": "'usaylah",
+    "center": [
+      29.89939006,
+      36.98046006
+    ]
+  },
+  {
+    "region_id": 8,
+    "country_id": 195,
+    "name_ar": "حائل",
+    "name_en": "Hail",
+    "center": [
+      27.53054999,
+      41.69733002
+    ]
+  },
+  {
+    "region_id": 4,
+    "country_id": 195,
+    "name_ar": "بريدة",
+    "name_en": "Buraydah",
+    "center": [
+      26.33033999,
+      43.97435997
+    ]
+  },
+  {
+    "region_id": 5,
+    "country_id": 195,
+    "name_ar": "الهفوف",
+    "name_en": "Al Hafuf",
+    "center": [
+      25.36655003,
+      49.60435986
+    ]
+  },
+  {
+    "region_id": 5,
+    "country_id": 195,
+    "name_ar": "الدمام",
+    "name_en": "Dammam",
+    "center": [
+      26.44199002,
+      50.10919981
+    ]
+  },
+  {
+    "region_id": 3,
+    "country_id": 195,
+    "name_ar": "المدينة المنورة",
+    "name_en": "Al Madinah Al Munawwarah",
+    "center": [
+      24.47057996,
+      39.60781006
+    ]
+  },
+  {
+    "region_id": 6,
+    "country_id": 195,
+    "name_ar": "ابها",
+    "name_en": "Abha",
+    "center": [
+      18.21667,
+      42.50000002
+    ]
+  },
+  {
+    "region_id": 7,
+    "country_id": 195,
+    "name_ar": "حالة عمار",
+    "name_en": "Halat Ammar",
+    "center": [
+      29.16381002,
+      36.07205999
+    ]
+  },
+  {
+    "region_id": 9,
+    "country_id": 195,
+    "name_ar": "جازان",
+    "name_en": "Jazan",
+    "center": [
+      16.89671995,
+      42.55360001
+    ]
+  },
+  {
+    "region_id": 2,
+    "country_id": 195,
+    "name_ar": "جدة",
+    "name_en": "Jeddah",
+    "center": [
+      21.48817996,
+      39.18094995
+    ]
+  },
+  {
+    "region_id": 7,
+    "country_id": 195,
+    "name_ar": "الشايب",
+    "name_en": "Ash Shayib",
+    "center": [
+      29.06630999,
+      36.68010006
+    ]
+  },
+  {
+    "region_id": 7,
+    "country_id": 195,
+    "name_ar": "الفوهة",
+    "name_en": "Al Fawhah",
+    "center": [
+      28.27168004,
+      36.21439994
+    ]
+  },
+  {
+    "region_id": 7,
+    "country_id": 195,
+    "name_ar": "اللوز",
+    "name_en": "Al Lawz",
+    "center": [
+      28.43635995,
+      35.52820998
+    ]
+  },
+  {
+    "region_id": 7,
+    "country_id": 195,
+    "name_ar": "عين الأخضر",
+    "name_en": "'ayn Al Akhdar",
+    "center": [
+      27.55677998,
+      36.75101002
+    ]
+  },
+  {
+    "region_id": 7,
+    "country_id": 195,
+    "name_ar": "ذات الحاج",
+    "name_en": "Dhat Al Hajj",
+    "center": [
+      29.05491001,
+      36.16480001
+    ]
+  },
+  {
+    "region_id": 1,
+    "country_id": 195,
+    "name_ar": "المجمعة",
+    "name_en": "Al Majma'ah",
+    "center": [
+      25.90742996,
+      45.33901994
+    ]
+  },
+  {
+    "region_id": 7,
+    "country_id": 195,
+    "name_ar": "قيال",
+    "name_en": "Qiyal",
+    "center": [
+      28.15173996,
+      35.03499001
+    ]
+  },
+  {
+    "region_id": 7,
+    "country_id": 195,
+    "name_ar": "الاخضر",
+    "name_en": "Al Akhdar",
+    "center": [
+      28.10812997,
+      37.08190995
+    ]
+  },
+  {
+    "region_id": 7,
+    "country_id": 195,
+    "name_ar": "البديعة",
+    "name_en": "Al Badi'ah",
+    "center": [
+      27.80688002,
+      36.52946006
+    ]
+  },
+  {
+    "region_id": 7,
+    "country_id": 195,
+    "name_ar": "مغيرة",
+    "name_en": "Mughayrah",
+    "center": [
+      29.29676999,
+      37.66740996
+    ]
+  },
+  {
+    "region_id": 7,
+    "country_id": 195,
+    "name_ar": "الهوجاء",
+    "name_en": "Al Hawja'",
+    "center": [
+      28.98485006,
+      38.56971998
+    ]
+  },
+  {
+    "region_id": 7,
+    "country_id": 195,
+    "name_ar": "البديع",
+    "name_en": "Al Badi'",
+    "center": [
+      29.11108995,
+      36.00439997
+    ]
+  },
+  {
+    "region_id": 5,
+    "country_id": 195,
+    "name_ar": "الخبر",
+    "name_en": "Al Khobar",
+    "center": [
+      26.31090997,
+      50.21074975
+    ]
+  },
+  {
+    "region_id": 7,
+    "country_id": 195,
+    "name_ar": "ابار قنا",
+    "name_en": "Abar Qana",
+    "center": [
+      27.94455999,
+      36.35010002
+    ]
+  },
+  {
+    "region_id": 7,
+    "country_id": 195,
+    "name_ar": "الجبعاوية",
+    "name_en": "Al Jab'awiyah",
+    "center": [
+      28.28974995,
+      38.65139005
+    ]
+  },
+  {
+    "region_id": 7,
+    "country_id": 195,
+    "name_ar": "الحميضة",
+    "name_en": "Al Humaydah",
+    "center": [
+      29.23575,
+      34.93879002
+    ]
+  },
+  {
+    "region_id": 7,
+    "country_id": 195,
+    "name_ar": "البيانة",
+    "name_en": "Al Bayyanah",
+    "center": [
+      29.13392997,
+      35.38569995
+    ]
+  },
+  {
+    "region_id": 7,
+    "country_id": 195,
+    "name_ar": "حقل",
+    "name_en": "Haql",
+    "center": [
+      29.30102998,
+      34.94863003
+    ]
+  },
+  {
+    "region_id": 7,
+    "country_id": 195,
+    "name_ar": "الدرة",
+    "name_en": "Ad Durrah",
+    "center": [
+      29.35414,
+      34.96193
+    ]
+  },
+  {
+    "region_id": 7,
+    "country_id": 195,
+    "name_ar": "الزيتة",
+    "name_en": "Az Zaytah",
+    "center": [
+      28.87198799,
+      35.51700285
+    ]
+  },
+  {
+    "region_id": 7,
+    "country_id": 195,
+    "name_ar": "علقان",
+    "name_en": "'alaqan",
+    "center": [
+      29.05222997,
+      35.42471004
+    ]
+  },
+  {
+    "region_id": 7,
+    "country_id": 195,
+    "name_ar": "الوادي الجديد",
+    "name_en": "Al Wadi Al Jadid",
+    "center": [
+      29.15739001,
+      35.03154999
+    ]
+  },
+  {
+    "region_id": 7,
+    "country_id": 195,
+    "name_ar": "مليح",
+    "name_en": "Mulayh",
+    "center": [
+      29.16804999,
+      35.40096995
+    ]
+  },
+  {
+    "region_id": 7,
+    "country_id": 195,
+    "name_ar": "ابو الحنشان",
+    "name_en": "Abu Al Hinshan",
+    "center": [
+      29.20217996,
+      35.19598002
+    ]
+  },
+  {
+    "region_id": 7,
+    "country_id": 195,
+    "name_ar": "مقنا",
+    "name_en": "Maqna",
+    "center": [
+      28.40485995,
+      34.73639996
+    ]
+  },
+  {
+    "region_id": 5,
+    "country_id": 195,
+    "name_ar": "ابو قعر",
+    "name_en": "Abu Qa'ar",
+    "center": [
+      28.37527004,
+      45.96298004
+    ]
+  },
+  {
+    "region_id": 5,
+    "country_id": 195,
+    "name_ar": "مركز العوجاء",
+    "name_en": "Markaz Al 'awja",
+    "center": [
+      29.02743004,
+      46.43006007
+    ]
+  },
+  {
+    "region_id": 5,
+    "country_id": 195,
+    "name_ar": "مركز العليمة",
+    "name_en": "Markaz Al 'ulayyimah",
+    "center": [
+      29.07298004,
+      46.24333999
+    ]
+  },
+  {
+    "region_id": 5,
+    "country_id": 195,
+    "name_ar": "حفر الباطن",
+    "name_en": "Hafar Al Batin",
+    "center": [
+      28.43750001,
+      45.98046997
+    ]
+  },
+  {
+    "region_id": 5,
+    "country_id": 195,
+    "name_ar": "القلت",
+    "name_en": "Al Qalt",
+    "center": [
+      28.55181997,
+      45.54736003
+    ]
+  },
+  {
+    "region_id": 5,
+    "country_id": 195,
+    "name_ar": "النظيم",
+    "name_en": "An Nadhim",
+    "center": [
+      28.67294999,
+      45.23121003
+    ]
+  },
+  {
+    "region_id": 5,
+    "country_id": 195,
+    "name_ar": "ابن طوالة",
+    "name_en": "Ibn Tuwalah",
+    "center": [
+      28.61736004,
+      45.35671001
+    ]
+  },
+  {
+    "region_id": 5,
+    "country_id": 195,
+    "name_ar": "الصداوي",
+    "name_en": "As Sidawi",
+    "center": [
+      28.10972,
+      46.7247
+    ]
+  },
+  {
+    "region_id": 5,
+    "country_id": 195,
+    "name_ar": "ام قليب",
+    "name_en": "Umm Qulaib",
+    "center": [
+      27.83416994,
+      45.97311998
+    ]
+  },
+  {
+    "region_id": 5,
+    "country_id": 195,
+    "name_ar": "عريفج",
+    "name_en": "Urayfij",
+    "center": [
+      27.81619997,
+      45.55191005
+    ]
+  },
+  {
+    "region_id": 5,
+    "country_id": 195,
+    "name_ar": "ابن شرار",
+    "name_en": "Ibn Sharar",
+    "center": [
+      27.83570005,
+      46.42083002
+    ]
+  },
+  {
+    "region_id": 5,
+    "country_id": 195,
+    "name_ar": "القيصومة",
+    "name_en": "Al Qaysumah",
+    "center": [
+      28.32198001,
+      46.12942998
+    ]
+  },
+  {
+    "region_id": 5,
+    "country_id": 195,
+    "name_ar": "الرقعي الجديدة",
+    "name_en": "Ar Ruq'i Al Jadidah",
+    "center": [
+      28.98338333,
+      46.57391667
+    ]
+  },
+  {
+    "region_id": 5,
+    "country_id": 195,
+    "name_ar": "ذبحة",
+    "name_en": "Dhabhah",
+    "center": [
+      27.94057003,
+      45.38029995
+    ]
+  },
+  {
+    "region_id": 5,
+    "country_id": 195,
+    "name_ar": "الصفيري",
+    "name_en": "As Sufairy",
+    "center": [
+      28.53147002,
+      45.80909006
+    ]
+  },
+  {
+    "region_id": 5,
+    "country_id": 195,
+    "name_ar": "الوايلية",
+    "name_en": "Al Wayliyah",
+    "center": [
+      28.44200002,
+      45.79369
+    ]
+  },
+  {
+    "region_id": 5,
+    "country_id": 195,
+    "name_ar": "الفيوان",
+    "name_en": "Al Fiwan",
+    "center": [
+      28.23975,
+      45.80167004
+    ]
+  },
+  {
+    "region_id": 5,
+    "country_id": 195,
+    "name_ar": "الحماطيات",
+    "name_en": "Al Hamatiyat",
+    "center": [
+      28.89257998,
+      47.53099993
+    ]
+  },
+  {
+    "region_id": 6,
+    "country_id": 195,
+    "name_ar": "خميس مشيط",
+    "name_en": "Khamis Mushayt",
+    "center": [
+      18.30613002,
+      42.72976998
+    ]
+  },
+  {
+    "region_id": 5,
+    "country_id": 195,
+    "name_ar": "الجبو",
+    "name_en": "Al Jabu",
+    "center": [
+      28.96981996,
+      47.38223997
+    ]
+  },
+  {
+    "region_id": 5,
+    "country_id": 195,
+    "name_ar": "المسناة",
+    "name_en": "Al Masnah",
+    "center": [
+      28.97782005,
+      47.14768002
+    ]
+  },
+  {
+    "region_id": 6,
+    "country_id": 195,
+    "name_ar": "احد رفيده",
+    "name_en": "Ahad Rifaydah",
+    "center": [
+      18.17358001,
+      42.83663
+    ]
+  },
+  {
+    "region_id": 5,
+    "country_id": 195,
+    "name_ar": "ام عشر الشرقية",
+    "name_en": "Umm Ishar Ash Sharqiyyah",
+    "center": [
+      27.72695001,
+      45.06599
+    ]
+  },
+  {
+    "region_id": 5,
+    "country_id": 195,
+    "name_ar": "القطيف",
+    "name_en": "Al Qatif",
+    "center": [
+      26.56387002,
+      50.00120987
+    ]
+  },
+  {
+    "region_id": 7,
+    "country_id": 195,
+    "name_ar": "بوهان",
+    "name_en": "Buhan",
+    "center": [
+      27.73134003,
+      38.67754006
+    ]
+  },
+  {
+    "region_id": 7,
+    "country_id": 195,
+    "name_ar": "السنانيات",
+    "name_en": "As Sananiyat",
+    "center": [
+      27.34904001,
+      38.68147003
+    ]
+  },
+  {
+    "region_id": 7,
+    "country_id": 195,
+    "name_ar": "حزايا",
+    "name_en": "Hazaya",
+    "center": [
+      27.19260998,
+      39.53592997
+    ]
+  },
+  {
+    "region_id": 7,
+    "country_id": 195,
+    "name_ar": "أكباد",
+    "name_en": "Akbad",
+    "center": [
+      27.23691995,
+      39.25667003
+    ]
+  },
+  {
+    "region_id": 7,
+    "country_id": 195,
+    "name_ar": "بئر الحيز",
+    "name_en": "Bir Al Hayz",
+    "center": [
+      27.50948995,
+      39.29335
+    ]
+  },
+  {
+    "region_id": 7,
+    "country_id": 195,
+    "name_ar": "جريداء",
+    "name_en": "Jurayda",
+    "center": [
+      27.69618999,
+      38.13729996
+    ]
+  },
+  {
+    "region_id": 7,
+    "country_id": 195,
+    "name_ar": "تيماء",
+    "name_en": "Tayma'",
+    "center": [
+      27.63502,
+      38.55060002
+    ]
+  },
+  {
+    "region_id": 7,
+    "country_id": 195,
+    "name_ar": "العسافية",
+    "name_en": "Al Assafiyah",
+    "center": [
+      28.27779001,
+      38.97937005
+    ]
+  },
+  {
+    "region_id": 10,
+    "country_id": 117,
+    "name_ar": "مدينة الكويت",
+    "name_en": "Kuwait city",
+    "center": [
+      29.311661,
+      47.481766
+    ]
+  },
+  {
+    "region_id": 10,
+    "country_id": 117,
+    "name_ar": "الدسمة",
+    "name_en": "Dasma",
+    "center": [
+      29.311661,
+      47.481766
+    ]
+  } ,
+  {
+    "region_id": 10,
+    "country_id": 117,
+    "name_ar": "قرطبة",
+    "name_en": "Cordoba",
+    "center": [
+      29.311661,
+      47.481766
+    ]
+  },
+  {
+    "region_id": 11,
+    "country_id": 117,
+    "name_ar": "الفنطاس",
+    "name_en": "Fintas",
+    "center": [
+      29.311661,
+      47.481766
+    ]
+  } ,
+  {
+    "region_id": 11,
+    "country_id": 117,
+    "name_ar": "الفحيحيل",
+    "name_en": "Fahaheel",
+    "center": [
+      29.311661,
+      47.481766
+    ]
+  } ,
+  {
+    "region_id": 11,
+    "country_id": 117,
+    "name_ar": "العقيلة",
+    "name_en": "Akila",
+    "center": [
+      29.311661,
+      47.481766
+    ]
+  }  ,
+  {
+    "region_id": 12,
+    "country_id": 117,
+    "name_ar": "العيون",
+    "name_en": "Laayoune",
+    "center": [
+      29.311661,
+      47.481766
+    ]
+  }  ,
+  {
+    "region_id": 12,
+    "country_id": 117,
+    "name_ar": "السالمي",
+    "name_en": "Salmi",
+    "center": [
+      29.311661,
+      47.481766
+    ]
+  } ,
+  {
+    "region_id": 12,
+    "country_id": 117,
+    "name_ar": "أمغرة",
+    "name_en": "Amghara",
+    "center": [
+      29.311661,
+      47.481766
+    ]
+  }  ,
+  {
+    "region_id": 13,
+    "country_id": 117,
+    "name_ar": "أبرق خيطان",
+    "name_en": "Abraq Khaitan",
+    "center": [
+      29.311661,
+      47.481766
+    ]
+  }  ,
+  {
+    "region_id": 13,
+    "country_id": 117,
+    "name_ar": "العارضية",
+    "name_en": "Ardiya",
+    "center": [
+      29.311661,
+      47.481766
+    ]
+  } ,
+  {
+    "region_id": 13,
+    "country_id": 117,
+    "name_ar": "الرابية",
+    "name_en": "Rabieh",
+    "center": [
+      29.311661,
+      47.481766
+    ]
+  } ,
+  {
+    "region_id": 14,
+    "country_id": 117,
+    "name_ar": "حولي",
+    "name_en": "Hawalli",
+    "center": [
+      29.311661,
+      47.481766
+    ]
+  }  ,
+  {
+    "region_id": 14,
+    "country_id": 117,
+    "name_ar": "بيان",
+    "name_en": "Bayan",
+    "center": [
+      29.311661,
+      47.481766
+    ]
+  }  ,
+  {
+    "region_id": 14,
+    "country_id": 117,
+    "name_ar": "جنوب السرة",
+    "name_en": "South Surra",
+    "center": [
+      29.311661,
+      47.481766
+    ]
+  } ,
+  {
+    "region_id": 15,
+    "country_id": 117,
+    "name_ar": "العدان",
+    "name_en": "Adan",
+    "center": [
+      29.311661,
+      47.481766
+    ]
+  } ,
+  {
+    "region_id": 15,
+    "country_id": 117,
+    "name_ar": "المسيلة",
+    "name_en": "M'sila",
+    "center": [
+      29.311661,
+      47.481766
+    ]
+  } ,
+  {
+    "region_id": 15,
+    "country_id": 117,
+    "name_ar": "صبحان",
+    "name_en": "Sabhan",
+    "center": [
+      29.311661,
+      47.481766
+    ]
+  }  
+]
