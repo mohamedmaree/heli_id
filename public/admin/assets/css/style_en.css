@@ -1,0 +1,18 @@
+.data-list-view-header .table-responsive .top .dataTables_filter label::after {
+    left: auto;
+	right: 15px !important;
+}
+.clean-input {
+    left: auto !important;
+    right: 10px;
+}
+@media (max-width: 550px) {
+    .header-navbar .navbar-container ul.nav li.dropdown .dropdown-menu {
+        left: auto !important;
+        right: 0 !important;
+        transform: translateX(60%) !important;
+    }
+}
+.select2, .select2-results__option{
+	direction: ltr;
+}
