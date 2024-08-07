@@ -13,8 +13,10 @@
           <li><a class="nav-link scrollto" href="{{ route('intro') }}#about">{{ __('site.about_us') }}</a></li>
           <li><a class="nav-link scrollto" href="{{ route('intro') }}#services">{{ __('site.services') }}</a></li>
           <li><a class="nav-link  scrollto" href="{{ route('intro') }}#portfolio">{{ __('site.portfolio') }}</a></li>
-          <li><a class="nav-link scrollto" href="{{ route('intro') }}#parteners">{{ __('site.parteners') }}</a></li>
-          <li><a class="nav-link scrollto" href="{{ route('intro') }}#team">{{ __('site.team') }}</a></li>
+          {{-- <li><a class="nav-link scrollto" href="{{ route('intro') }}#parteners">{{ __('site.parteners') }}</a></li> --}}
+          @if(count($teams))
+            <li><a class="nav-link scrollto" href="{{ route('intro') }}#team">{{ __('site.team') }}</a></li>
+          @endif
           {{-- <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="#">Drop Down 1</a></li>

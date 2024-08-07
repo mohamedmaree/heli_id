@@ -29,8 +29,10 @@
                   <li><i class="bx bx-chevron-right"></i> <a href="{{ route('intro') }}#about">{{ __('site.about_us') }}</a></li>
                   <li><i class="bx bx-chevron-right"></i> <a href="{{ route('intro') }}#services">{{ __('site.services') }}</a></li>
                   <li><i class="bx bx-chevron-right"></i> <a href="{{ route('intro') }}#portfolio">{{ __('site.portfolio') }}</a></li>
-                  <li><i class="bx bx-chevron-right"></i> <a href="{{ route('intro') }}#parteners">{{ __('site.parteners') }}</a></li>
+                  {{-- <li><i class="bx bx-chevron-right"></i> <a href="{{ route('intro') }}#parteners">{{ __('site.parteners') }}</a></li> --}}
+                  @if(count($teams))
                   <li><i class="bx bx-chevron-right"></i> <a href="{{ route('intro') }}#team">{{ __('site.team') }}</a></li>
+                  @endif
                 </ul>
               </div>
 
