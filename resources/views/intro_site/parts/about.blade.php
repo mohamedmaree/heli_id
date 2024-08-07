@@ -30,23 +30,29 @@
               <h3>{{ $settings['intro_about_title_'.lang()] }}</h3>
               <p>{{ $settings['intro_about_'.lang()] }}</p>
   
+              @if($settings['intro_about_step1_'.lang()] )
               <div class="icon-box">
                 <div class="icon"><i class="bx bx-fingerprint"></i></div>
                 <h4 class="title"><a href="">{{ $settings['intro_about_step1_title_'.lang()] }}</a></h4>
                 <p class="description">{{ $settings['intro_about_step1_'.lang()] }}</p>
               </div>
+              @endif
   
+              @if($settings['intro_about_step2_'.lang()] )
               <div class="icon-box">
                 <div class="icon"><i class="bx bx-gift"></i></div>
                 <h4 class="title"><a href="">{{ $settings['intro_about_step2_title_'.lang()] }}</a></h4>
                 <p class="description">{{ $settings['intro_about_step2_'.lang()] }}</p>
               </div>
+              @endif
   
+              @if($settings['intro_about_step3_'.lang()] )
               <div class="icon-box">
                 <div class="icon"><i class="bx bx-atom"></i></div>
                 <h4 class="title"><a href="">{{ $settings['intro_about_step3_title_'.lang()] }}</a></h4>
                 <p class="description">{{ $settings['intro_about_step3_'.lang()] }}</p>
               </div>
+              @endif
   
             </div>
           </div>

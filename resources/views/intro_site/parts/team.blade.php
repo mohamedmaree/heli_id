@@ -1,4 +1,5 @@
-    <!-- ======= Team Section ======= -->
+   @if(count($teams))
+   <!-- ======= Team Section ======= -->
     <section id="team" class="team">
         <div class="container-fluid">
   
@@ -39,3 +40,4 @@
   
         </div>
       </section><!-- End Team Section -->
+      @endif

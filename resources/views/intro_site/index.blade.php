@@ -17,7 +17,7 @@
     {{-- our services section --}}
         @include('intro_site.parts.portfolio')
     {{-- start parteners section --}}
-        @include('intro_site.parts.parteners')
+        {{-- @include('intro_site.parts.parteners') --}}
     {{-- start parteners section --}}
     @include('intro_site.parts.team')
     {{-- start how work section --}}
