@@ -41,6 +41,7 @@ class IntroController extends Controller
             'services'        => IntroService::get() ,
             'socials'         => IntroSocial::get() ,
             'settings'        => SettingService::appInformations(SiteSetting::pluck('value', 'key')) ,
+            'teams'           => Team::get() ,
         ]);
         return view('intro_site.serviceDetails',get_defined_vars());
     }
@@ -51,6 +52,7 @@ class IntroController extends Controller
             'services'        => IntroService::get() ,
             'socials'         => IntroSocial::get() ,
             'settings'        => SettingService::appInformations(SiteSetting::pluck('value', 'key')) ,
+            'teams'           => Team::get() ,
         ]);
         return view('intro_site.portfolioDetails',get_defined_vars());
     }
@@ -58,6 +60,7 @@ class IntroController extends Controller
     public function privacyPolicy(){
         view()->share([
             'socials'         => IntroSocial::get() ,
+            'teams'           => Team::get() ,
             'settings'        => SettingService::appInformations(SiteSetting::pluck('value', 'key')) ,
         ]);
         return view('intro_site.privacy');
