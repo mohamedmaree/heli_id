@@ -151,7 +151,41 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="imgMontg col-lg-4 col-md-12 text-center">
+                                        <div class="imgMontg col-12 col-lg-4 col-md-6 text-center">
+                                            <div class="dropBox">
+                                                <div class="textCenter d-flex flex-column">
+                                                    <div class="imagesUploadBlock">
+                                                        <label class="uploadImg">
+                                                            <span><i class="feather icon-image"></i></span>
+                                                            <input type="file" accept="image/*" name="logo" class="imageUploader">
+                                                        </label>
+                                                        <div class="uploadedBlock">
+                                                            <img src="{{$data['logo']}}">
+                                                            <button class="close"><i class="feather icon-trash-2"></i></button>
+                                                        </div>
+                                                      </div>
+                                                      <span>{{__('admin.logo_image')}}</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="imgMontg col-12 col-lg-4 col-md-6 text-center">
+                                            <div class="dropBox">
+                                                <div class="textCenter d-flex flex-column">
+                                                    <div class="imagesUploadBlock">
+                                                        <label class="uploadImg">
+                                                            <span><i class="feather icon-image"></i></span>
+                                                            <input type="file" accept="image/*" name="fav_icon" class="imageUploader">
+                                                        </label>
+                                                        <div class="uploadedBlock">
+                                                            <img src="{{$data['fav_icon']}}">
+                                                            <button class="close"><i class="feather icon-trash-2"></i></button>
+                                                        </div>
+                                                      </div>
+                                                      <span>{{__('admin.fav_icon_image')}}</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        {{-- <div class="imgMontg col-lg-4 col-md-12 text-center">
                                             <div class="dropBox">
                                                 <div class="textCenter d-flex flex-lg-column flex-wrap flex-column">
                                                     <div class="imagesUploadBlock">
@@ -167,7 +201,7 @@
                                                       <span>{{__('admin.Picture_of_Loader')}}</span>
                                                 </div>
                                             </div>
-                                        </div>
+                                        </div> --}}
                                       </div>
                                 
                                     </div>

@@ -5,7 +5,7 @@
 
       <h1 class="logo"><a href="<?php echo e(route('intro')); ?>"><?php echo e($settings['intro_name_'.lang()]); ?></a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+      <a href="index.html" class="logo"><img src="<?php echo e($settings['intro_logo']); ?>" alt="" class="img-fluid"></a>
 
       <nav id="navbar" class="navbar">
         <ul>

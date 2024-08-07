@@ -42,7 +42,7 @@
 
     <title><?php echo e($settings['intro_name_'.lang()]); ?></title>
     <!-- title logo -->
-    <link rel="icon"  href="<?php echo e($settings['intro_logo']); ?>" type="image/x-icon" />
+    <link rel="icon"  href="<?php echo e($settings['fav_icon']); ?>" type="image/x-icon" />
     <meta name="csrf-token" content="<?php echo e(csrf_token()); ?>" />
   </head>
 

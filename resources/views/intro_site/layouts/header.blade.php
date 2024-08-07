@@ -42,7 +42,7 @@
 
     <title>{{$settings['intro_name_'.lang()]}}</title>
     <!-- title logo -->
-    <link rel="icon"  href="{{$settings['intro_logo']}}" type="image/x-icon" />
+    <link rel="icon"  href="{{$settings['fav_icon']}}" type="image/x-icon" />
     <meta name="csrf-token" content="{{ csrf_token() }}" />
   </head>
 
