@@ -19,7 +19,7 @@
 			Schema ::create( 'site_settings', function ( Blueprint $table ) {
 				$table -> increments( 'id' );
 				$table -> string( 'key', 50 );
-				$table -> longText( 'value' );
+				$table -> longText( 'value' )->nullable();
 				$table -> timestamps();
 			} );
 			Cache::forget('settings');
