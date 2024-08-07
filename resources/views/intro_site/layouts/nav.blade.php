@@ -34,7 +34,7 @@
               <li><a href="#">Drop Down 4</a></li>
             </ul>
           </li> --}}
-          <li><a class="nav-link scrollto" href="#contact">{{ __('site.contact_us') }}</a></li>
+          <li><a class="nav-link scrollto" href="{{ route('intro') }}#contact">{{ __('site.contact_us') }}</a></li>
           @if(lang() == 'ar')
           <li><a class="nav-link" href="{{ route('change-lang',['en']) }}">English</a></li>
           @else
