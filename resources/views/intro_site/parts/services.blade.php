@@ -13,7 +13,7 @@
                         <img  loading="lazy"  src="{{asset('intro_site/imgs/ser.png')}}">
                         <h6 class="f-b">{{$service->title}}</h6>
                         <p class="grey-color">
-                            {{$service->description}}
+                            {!! $service->description !!}
                         </p>
                     </div>
                 </div>
@@ -30,7 +30,7 @@
           <div class="section-title">
             <h2>{{ __('site.services') }}</h2>
             <h3>{{ __('site.check_our') }} <span> {{ __('site.services') }}</span></h3>
-            <p>{{ $settings['services_text_'.lang()] }}</p>
+            <p>{!! $settings['services_text_'.lang()] !!}</p>
           </div>
   
           <div class="row justify-content-center">
@@ -41,7 +41,7 @@
                   <div class="col-lg-4 col-md-6 icon-box">
                     <div class="icon"><i class="{{ $service->icon}}"></i></div>
                     <h4 class="title"><a href="{{ route('service-details',[$service]) }}">{{ $service->title }}</a></h4>
-                    <p class="description">{{$service->short_description}}</p>
+                    <p class="description">{!! $service->short_description !!}</p>
                   </div>
                 @endforeach
 

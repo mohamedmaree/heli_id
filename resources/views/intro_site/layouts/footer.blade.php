@@ -58,7 +58,7 @@
 
               <div class="col-lg-3 col-md-6 footer-info">
                 <h3>{{ __('site.about') }} {{$settings['intro_name_'.lang()]}} </h3>
-                <p>{{ Str::limit($settings['intro_about_'.lang()],400)}} </p>
+                <p>{!! Str::limit($settings['intro_about_'.lang()],400) !!} </p>
                 <div class="social-links mt-3">
                   @foreach($socials as $social)
                     <a href="{{ $social->url }}" target="blank" class="{{ $social->key }}"><i class="{{ $social->icon }}"></i></a>

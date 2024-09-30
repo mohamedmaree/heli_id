@@ -5,7 +5,7 @@
         <div class="section-title">
           <h2>{{ __('site.portfolio') }}</h2>
           <h3>{{ __('site.check_our') }} <span>{{ __('site.portfolio') }}</span></h3>
-          <p>{{ $settings['portfolio_text_'.lang()] }}</p>
+          <p>{!! $settings['portfolio_text_'.lang()] !!}</p>
         </div>
 
         <div class="row">

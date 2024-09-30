@@ -51,7 +51,7 @@
             <div class="portfolio-description">
               <h2>{{ __('site.porto_details') }}</h2>
               <p>
-                {{ $portfolio->description }}
+                {!! $portfolio->description !!}
               </p>
             </div>
           </div>

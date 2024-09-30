@@ -32,7 +32,7 @@
                                             <div class="form-group">
                                                 <div class="controls">
                                                     <label for="account-name"><?php echo e(__('admin.short_description')); ?> <?php echo e($lang); ?></label>
-                                                    <textarea class="form-control" name="short_description[<?php echo e($lang); ?>]" id="" cols="30" rows="10" placeholder="<?php echo e(__('site.write') . __('admin.short_description')); ?> <?php echo e($lang); ?>"></textarea>
+                                                    <textarea class="form-control" name="short_description[<?php echo e($lang); ?>]" id="short_description_<?php echo e($lang); ?>_editor" cols="30" rows="10" placeholder="<?php echo e(__('site.write') . __('admin.short_description')); ?> <?php echo e($lang); ?>"></textarea>
                                                 </div>
                                             </div>
                                         </div>
@@ -43,7 +43,7 @@
                                             <div class="form-group">
                                                 <div class="controls">
                                                     <label for="account-name"><?php echo e(__('site.description_'.$lang)); ?> </label>
-                                                    <textarea class="form-control" name="description[<?php echo e($lang); ?>]" id="" cols="30" rows="10" placeholder="<?php echo e(__('site.write') . __('site.description_'.$lang)); ?>"></textarea>
+                                                    <textarea class="form-control" name="description[<?php echo e($lang); ?>]" id="description_<?php echo e($lang); ?>_editor" cols="30" rows="10" placeholder="<?php echo e(__('site.write') . __('site.description_'.$lang)); ?>"></textarea>
                                                 </div>
                                             </div>
                                         </div>
@@ -77,7 +77,16 @@
     <script src="<?php echo e(asset('admin/app-assets/js/scripts/forms/validation/form-validation.js')); ?>"></script>
     <script src="<?php echo e(asset('admin/app-assets/vendors/js/extensions/sweetalert2.all.min.js')); ?>"></script>
     <script src="<?php echo e(asset('admin/app-assets/js/scripts/extensions/sweet-alerts.js')); ?>"></script>
-    
+    <script src="https://cdn.ckeditor.com/4.16.2/full-all/ckeditor.js"></script>
+    <script>
+        <?php $__currentLoopData = languages(); $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $lang): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+            CKEDITOR.replace( 'short_description_<?php echo e($lang); ?>_editor' );
+            CKEDITOR.replace( 'description_<?php echo e($lang); ?>_editor' );
+
+            
+        <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
+
+    </script>
     
         <?php echo $__env->make('admin.shared.addImage', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
     

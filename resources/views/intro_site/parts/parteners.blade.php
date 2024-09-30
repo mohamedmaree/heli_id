@@ -26,7 +26,7 @@
           <div class="section-title">
             <h2>{{__('intro_site.parteners')}}</h2>
             <h3>{{ __('site.what') }} <span>{{ __('site.are_saying') }}</span> {{ __('site.about2') }}</h3>
-            <p>{{$settings['parteners_text_'.lang()]}}</p>
+            <p>{!! settings['parteners_text_'.lang()] !!}</p>
           </div>
   
           <div class="row justify-content-center">

@@ -30,7 +30,7 @@
       <div class="col-xl-10">
         <div class="row">
           <p>
-            {{ $service->description }}
+            {!! $service->description !!}
           </p>
         </div>
       </div>

@@ -30,7 +30,7 @@
                                         <div class="form-group">
                                             <div class="controls">
                                                 <label for="account-name">{{__('admin.short_description')}} {{ $lang }}</label>
-                                                <textarea class="form-control" name="short_description[{{$lang}}]" id="" cols="30" rows="10" placeholder="{{__('site.write') . __('admin.short_description')}}{{ $lang }}">{{$service->getTranslations('short_description')[$lang]}}</textarea>
+                                                <textarea class="form-control" name="short_description[{{$lang}}]" id="short_description_{{$lang}}_editor"  cols="30" rows="10" placeholder="{{__('site.write') . __('admin.short_description')}}{{ $lang }}">{{$service->getTranslations('short_description')[$lang]}}</textarea>
                                             </div>
                                         </div>
                                     </div>
@@ -40,7 +40,7 @@
                                             <div class="form-group">
                                                 <div class="controls">
                                                     <label for="account-name">{{__('site.description_'.$lang)}} </label>
-                                                    <textarea class="form-control" name="description[{{$lang}}]" id="" cols="30" rows="10" placeholder="{{__('site.write') . __('site.description_'.$lang)}}">{{$service->getTranslations('description')[$lang]}}</textarea>
+                                                    <textarea class="form-control" name="description[{{$lang}}]" id="description_{{$lang}}_editor"  cols="30" rows="10" placeholder="{{__('site.write') . __('site.description_'.$lang)}}">{{$service->getTranslations('description')[$lang]}}</textarea>
                                                 </div>
                                             </div>
                                         </div>
@@ -77,4 +77,11 @@
         $('.store select').attr('disabled' , true)
 
     </script>
+        <script src="https://cdn.ckeditor.com/4.16.2/full-all/ckeditor.js"></script>
+        <script>
+            @foreach(languages() as $lang)
+                CKEDITOR.replace( 'short_description_{{ $lang }}_editor' );
+                CKEDITOR.replace( 'description_{{ $lang }}_editor' );
+            @endforeach
+        </script>
 @endsection

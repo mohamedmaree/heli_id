@@ -93,7 +93,7 @@
                                                             <div class="form-group">
                                                                 <div class="controls">
                                                                     <label for="account-name">{{__('admin.description')}} {{ $lang }}</label>
-                                                                    <textarea class="form-control" name="description[{{$lang}}]" id="" cols="30" rows="10" placeholder="{{__('admin.write') . __('admin.description')}} {{ $lang }} "></textarea>
+                                                                    <textarea class="form-control" name="description[{{$lang}}]" id="description_{{$lang}}_editor" cols="30" rows="10" placeholder="{{__('admin.write') . __('admin.description')}} {{ $lang }} "></textarea>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -161,7 +161,12 @@
     <script src="{{ asset('admin/app-assets/js/scripts/forms/validation/form-validation.js') }}"></script>
     <script src="{{ asset('admin/app-assets/vendors/js/extensions/sweetalert2.all.min.js') }}"></script>
     <script src="{{ asset('admin/app-assets/js/scripts/extensions/sweet-alerts.js') }}"></script>
-
+    <script src="https://cdn.ckeditor.com/4.16.2/full-all/ckeditor.js"></script>
+    <script>
+        @foreach(languages() as $lang)
+            CKEDITOR.replace( 'description_{{ $lang }}_editor' );
+        @endforeach
+    </script>
     {{-- show selected image script --}}
     @include('admin.shared.addImage')
     {{-- show selected image script --}}

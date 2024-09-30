@@ -223,7 +223,7 @@
                                           <div class="form-group">
                                               <div class="controls">
                                                   <label for="account-name">{{__('admin.address_of_our_services_section_in_arabic')}}</label>
-                                                  <textarea class="form-control" name="services_text_ar" id="" cols="30" rows="10" placeholder="{{__('admin.address_of_our_services_section_in_arabic')}}">{{$data['services_text_ar']}}</textarea>
+                                                  <textarea class="form-control" name="services_text_ar" id="services_text_ar_editor" cols="30" rows="10" placeholder="{{__('admin.address_of_our_services_section_in_arabic')}}">{{$data['services_text_ar']}}</textarea>
                                               </div>
                                           </div>
                                       </div>
@@ -232,7 +232,7 @@
                                           <div class="form-group">
                                               <div class="controls">
                                                   <label for="account-name">{{__('admin.the_title_of_our_english_service_department')}}</label>
-                                                  <textarea class="form-control" name="services_text_en" id="" cols="30" rows="10" placeholder="{{__('admin.the_title_of_our_english_service_department')}}">{{$data['services_text_en']}}</textarea>
+                                                  <textarea class="form-control" name="services_text_en" id="services_text_en_editor" cols="30" rows="10" placeholder="{{__('admin.the_title_of_our_english_service_department')}}">{{$data['services_text_en']}}</textarea>
                                               </div>
                                           </div>
                                       </div>
@@ -240,7 +240,7 @@
                                           <div class="form-group">
                                               <div class="controls">
                                                   <label for="account-name">{{__('admin.team_in_arabic')}}</label>
-                                                  <textarea class="form-control" name="team_text_ar" id="" cols="30" rows="10" placeholder="{{__('admin.team_in_arabic')}}">{{$data['team_text_ar']}}</textarea>
+                                                  <textarea class="form-control" name="team_text_ar" id="team_text_ar_editor" cols="30" rows="10" placeholder="{{__('admin.team_in_arabic')}}">{{$data['team_text_ar']}}</textarea>
                                               </div>
                                           </div>
                                       </div>
@@ -249,7 +249,7 @@
                                           <div class="form-group">
                                               <div class="controls">
                                                   <label for="account-name">{{__('admin.team_in_english')}}</label>
-                                                  <textarea class="form-control" name="team_text_en" id="" cols="30" rows="10" placeholder="{{__('admin.team_in_english')}}">{{$data['team_text_en']}}</textarea>
+                                                  <textarea class="form-control" name="team_text_en" id="team_text_en_editor" cols="30" rows="10" placeholder="{{__('admin.team_in_english')}}">{{$data['team_text_en']}}</textarea>
                                               </div>
                                           </div>
                                       </div>
@@ -257,7 +257,7 @@
                                           <div class="form-group">
                                               <div class="controls">
                                                   <label for="account-name">{{__('admin.portfolio_in_arabic')}}</label>
-                                                  <textarea class="form-control" name="portfolio_text_ar" id="" cols="30" rows="10" placeholder="{{__('admin.portfolio_in_arabic')}}">{{$data['portfolio_text_ar']}}</textarea>
+                                                  <textarea class="form-control" name="portfolio_text_ar" id="portfolio_text_ar_editor" cols="30" rows="10" placeholder="{{__('admin.portfolio_in_arabic')}}">{{$data['portfolio_text_ar']}}</textarea>
                                               </div>
                                           </div>
                                       </div>
@@ -266,7 +266,7 @@
                                           <div class="form-group">
                                               <div class="controls">
                                                   <label for="account-name">{{__('admin.portfolio_in_english')}}</label>
-                                                  <textarea class="form-control" name="portfolio_text_en" id="" cols="30" rows="10" placeholder="{{__('admin.portfolio_in_english')}}">{{$data['portfolio_text_en']}}</textarea>
+                                                  <textarea class="form-control" name="portfolio_text_en" id="portfolio_text_en_editor" cols="30" rows="10" placeholder="{{__('admin.portfolio_in_english')}}">{{$data['portfolio_text_en']}}</textarea>
                                               </div>
                                           </div>
                                       </div>
@@ -275,7 +275,7 @@
                                           <div class="form-group">
                                               <div class="controls">
                                                   <label for="account-name">{{__('admin.the_title_of_our_partition_in_arabic')}}</label>
-                                                  <textarea class="form-control" name="parteners_text_ar" id="" cols="30" rows="10" placeholder="{{__('admin.the_title_of_our_partition_in_arabic')}}">{{$data['parteners_text_ar']}}</textarea>
+                                                  <textarea class="form-control" name="parteners_text_ar" id="parteners_text_ar_editor" cols="30" rows="10" placeholder="{{__('admin.the_title_of_our_partition_in_arabic')}}">{{$data['parteners_text_ar']}}</textarea>
                                               </div>
                                           </div>
                                       </div>
@@ -283,7 +283,7 @@
                                           <div class="form-group">
                                               <div class="controls">
                                                   <label for="account-name">{{__('admin.the_title_of_our_english_partition')}}</label>
-                                                  <textarea class="form-control" name="parteners_text_en" id="" cols="30" rows="10" placeholder="{{__('admin.the_title_of_our_english_partition')}}">{{$data['parteners_text_en']}}</textarea>
+                                                  <textarea class="form-control" name="parteners_text_en" id="parteners_text_en_editor" cols="30" rows="10" placeholder="{{__('admin.the_title_of_our_english_partition')}}">{{$data['parteners_text_en']}}</textarea>
                                               </div>
                                           </div>
                                       </div>
@@ -292,7 +292,7 @@
                                           <div class="form-group">
                                               <div class="controls">
                                                   <label for="account-name">{{__('admin.address_in_arabic_communication')}}</label>
-                                                  <textarea class="form-control" name="contact_text_ar" id="" cols="30" rows="10" placeholder="{{__('admin.address_in_arabic_communication')}}">{{$data['contact_text_ar']}}</textarea>
+                                                  <textarea class="form-control" name="contact_text_ar" id="contact_text_ar_editor" cols="30" rows="10" placeholder="{{__('admin.address_in_arabic_communication')}}">{{$data['contact_text_ar']}}</textarea>
                                               </div>
                                           </div>
                                       </div>
@@ -301,7 +301,7 @@
                                             <div class="form-group">
                                                 <div class="controls">
                                                     <label for="account-name">{{__('admin.address_in_english_communication')}}</label>
-                                                    <textarea class="form-control" name="contact_text_en" id="" cols="30" rows="10" placeholder="{{__('admin.address_in_english_communication')}}">{{$data['contact_text_en']}}</textarea>
+                                                    <textarea class="form-control" name="contact_text_en" id="contact_text_en_editor" cols="30" rows="10" placeholder="{{__('admin.address_in_english_communication')}}">{{$data['contact_text_en']}}</textarea>
                                                 </div>
                                             </div>
                                         </div>
@@ -395,7 +395,7 @@
                                             <div class="form-group">
                                                 <div class="controls">
                                                     <label for="account-name">{{__('admin.about_the_arabic_application')}}</label>
-                                                    <textarea class="form-control" name="intro_about_ar" id="" cols="30" rows="10" placeholder="{{__('admin.about_the_arabic_application')}}">{{$data['intro_about_ar']}}</textarea>
+                                                    <textarea class="form-control" name="intro_about_ar" id="intro_about_ar_editor" cols="30" rows="10" placeholder="{{__('admin.about_the_arabic_application')}}">{{$data['intro_about_ar']}}</textarea>
                                                 </div>
                                             </div>
                                         </div>
@@ -403,7 +403,7 @@
                                             <div class="form-group">
                                                 <div class="controls">
                                                     <label for="account-name">{{__('admin.about_the_english_application')}}</label>
-                                                    <textarea class="form-control" name="intro_about_en" id="" cols="30" rows="10" placeholder="{{__('admin.about_the_english_application')}}">{{$data['intro_about_en']}}</textarea>
+                                                    <textarea class="form-control" name="intro_about_en" id="intro_about_en_editor" cols="30" rows="10" placeholder="{{__('admin.about_the_english_application')}}">{{$data['intro_about_en']}}</textarea>
                                                 </div>
                                             </div>
                                         </div>
@@ -429,7 +429,7 @@
                                             <div class="form-group">
                                                 <div class="controls">
                                                     <label for="account-name">{{__('admin.intro_about_step1_ar')}}</label>
-                                                    <textarea class="form-control" name="intro_about_step1_ar" id="" cols="30" rows="10" placeholder="{{__('admin.intro_about_step1_ar')}}">{{$data['intro_about_step1_ar']}}</textarea>
+                                                    <textarea class="form-control" name="intro_about_step1_ar" id="intro_about_step1_ar_editor" cols="30" rows="10" placeholder="{{__('admin.intro_about_step1_ar')}}">{{$data['intro_about_step1_ar']}}</textarea>
                                                 </div>
                                             </div>
                                         </div>
@@ -437,7 +437,7 @@
                                             <div class="form-group">
                                                 <div class="controls">
                                                     <label for="account-name">{{__('admin.intro_about_step1_en')}}</label>
-                                                    <textarea class="form-control" name="intro_about_step1_en" id="" cols="30" rows="10" placeholder="{{__('admin.intro_about_step1_en')}}">{{$data['intro_about_step1_en']}}</textarea>
+                                                    <textarea class="form-control" name="intro_about_step1_en" id="intro_about_step1_en_editor" cols="30" rows="10" placeholder="{{__('admin.intro_about_step1_en')}}">{{$data['intro_about_step1_en']}}</textarea>
                                                 </div>
                                             </div>
                                         </div>
@@ -462,7 +462,7 @@
                                             <div class="form-group">
                                                 <div class="controls">
                                                     <label for="account-name">{{__('admin.intro_about_step2_ar')}}</label>
-                                                    <textarea class="form-control" name="intro_about_step2_ar" id="" cols="30" rows="10" placeholder="{{__('admin.intro_about_step2_ar')}}">{{$data['intro_about_step2_ar']}}</textarea>
+                                                    <textarea class="form-control" name="intro_about_step2_ar" id="intro_about_step2_ar_editor" cols="30" rows="10" placeholder="{{__('admin.intro_about_step2_ar')}}">{{$data['intro_about_step2_ar']}}</textarea>
                                                 </div>
                                             </div>
                                         </div>
@@ -470,7 +470,7 @@
                                             <div class="form-group">
                                                 <div class="controls">
                                                     <label for="account-name">{{__('admin.intro_about_step2_en')}}</label>
-                                                    <textarea class="form-control" name="intro_about_step2_en" id="" cols="30" rows="10" placeholder="{{__('admin.intro_about_step2_en')}}">{{$data['intro_about_step2_en']}}</textarea>
+                                                    <textarea class="form-control" name="intro_about_step2_en" id="intro_about_step2_en_editor" cols="30" rows="10" placeholder="{{__('admin.intro_about_step2_en')}}">{{$data['intro_about_step2_en']}}</textarea>
                                                 </div>
                                             </div>
                                         </div>
@@ -495,7 +495,7 @@
                                             <div class="form-group">
                                                 <div class="controls">
                                                     <label for="account-name">{{__('admin.intro_about_step3_ar')}}</label>
-                                                    <textarea class="form-control" name="intro_about_step3_ar" id="" cols="30" rows="10" placeholder="{{__('admin.intro_about_step3_ar')}}">{{$data['intro_about_step3_ar']}}</textarea>
+                                                    <textarea class="form-control" name="intro_about_step3_ar" id="intro_about_step3_ar_editor" cols="30" rows="10" placeholder="{{__('admin.intro_about_step3_ar')}}">{{$data['intro_about_step3_ar']}}</textarea>
                                                 </div>
                                             </div>
                                         </div>
@@ -503,7 +503,7 @@
                                             <div class="form-group">
                                                 <div class="controls">
                                                     <label for="account-name">{{__('admin.intro_about_step3_en')}}</label>
-                                                    <textarea class="form-control" name="intro_about_step3_en" id="" cols="30" rows="10" placeholder="{{__('admin.intro_about_step3_en')}}">{{$data['intro_about_step3_en']}}</textarea>
+                                                    <textarea class="form-control" name="intro_about_step3_en" id="intro_about_step3_en_editor" cols="30" rows="10" placeholder="{{__('admin.intro_about_step3_en')}}">{{$data['intro_about_step3_en']}}</textarea>
                                                 </div>
                                             </div>
                                         </div>
@@ -531,7 +531,24 @@
 @section('js')
     <script src="{{asset('admin/app-assets/vendors/js/forms/validation/jqBootstrapValidation.js')}}"></script>
     <script src="{{asset('admin/app-assets/js/scripts/forms/validation/form-validation.js')}}"></script>
-  {{-- show selected image script --}}
+    <script src="https://cdn.ckeditor.com/4.16.2/full-all/ckeditor.js"></script>
+    <script>
+        @foreach(languages() as $lang)
+            CKEDITOR.replace( 'services_text_{{ $lang }}_editor' );
+            CKEDITOR.replace( 'team_text_{{ $lang }}_editor' );
+            CKEDITOR.replace( 'portfolio_text_{{ $lang }}_editor' );
+            CKEDITOR.replace( 'parteners_text_{{ $lang }}_editor' );
+            CKEDITOR.replace( 'contact_text_{{ $lang }}_editor' );
+            CKEDITOR.replace( 'intro_about_{{ $lang }}_editor' );
+            CKEDITOR.replace( 'intro_about_step1_{{ $lang }}_editor' );
+            CKEDITOR.replace( 'intro_about_step2_{{ $lang }}_editor' );
+            CKEDITOR.replace( 'intro_about_step3_{{ $lang }}_editor' );
+            
+        @endforeach
+
+    </script>
+    {{-- show selected image script --}}
     @include('admin.shared.addImage')
   {{-- show selected image script --}}
+  
 @endsection

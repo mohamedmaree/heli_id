@@ -65,7 +65,7 @@ class AppServiceProvider extends ServiceProvider {
             if (session()->has('lang')) {
                 return session('lang');
             } else {
-                return 'ar';
+                return 'en';
             }
         });
         // -------------- lang ---------------- \\

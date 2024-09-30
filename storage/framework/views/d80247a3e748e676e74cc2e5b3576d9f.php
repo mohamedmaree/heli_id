@@ -14,7 +14,7 @@
     
         <?php echo $__env->make('intro_site.parts.portfolio', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
     
-        <?php echo $__env->make('intro_site.parts.parteners', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
+        
     
     <?php echo $__env->make('intro_site.parts.team', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
     

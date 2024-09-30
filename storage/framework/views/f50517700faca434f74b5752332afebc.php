@@ -15,8 +15,10 @@
                   <li><i class="bx bx-chevron-right"></i> <a href="<?php echo e(route('intro')); ?>#about"><?php echo e(__('site.about_us')); ?></a></li>
                   <li><i class="bx bx-chevron-right"></i> <a href="<?php echo e(route('intro')); ?>#services"><?php echo e(__('site.services')); ?></a></li>
                   <li><i class="bx bx-chevron-right"></i> <a href="<?php echo e(route('intro')); ?>#portfolio"><?php echo e(__('site.portfolio')); ?></a></li>
-                  <li><i class="bx bx-chevron-right"></i> <a href="<?php echo e(route('intro')); ?>#parteners"><?php echo e(__('site.parteners')); ?></a></li>
+                  
+                  <?php if(count($teams)): ?>
                   <li><i class="bx bx-chevron-right"></i> <a href="<?php echo e(route('intro')); ?>#team"><?php echo e(__('site.team')); ?></a></li>
+                  <?php endif; ?>
                 </ul>
               </div>
 
@@ -42,7 +44,7 @@
 
               <div class="col-lg-3 col-md-6 footer-info">
                 <h3><?php echo e(__('site.about')); ?> <?php echo e($settings['intro_name_'.lang()]); ?> </h3>
-                <p><?php echo e(Str::limit($settings['intro_about_'.lang()],400)); ?> </p>
+                <p><?php echo Str::limit($settings['intro_about_'.lang()],400); ?> </p>
                 <div class="social-links mt-3">
                   <?php $__currentLoopData = $socials; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $social): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
                     <a href="<?php echo e($social->url); ?>" target="blank" class="<?php echo e($social->key); ?>"><i class="<?php echo e($social->icon); ?>"></i></a>

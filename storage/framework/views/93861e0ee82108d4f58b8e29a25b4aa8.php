@@ -8,7 +8,7 @@
           <div class="section-title">
             <h2><?php echo e(__('site.services')); ?></h2>
             <h3><?php echo e(__('site.check_our')); ?> <span> <?php echo e(__('site.services')); ?></span></h3>
-            <p><?php echo e($settings['services_text_'.lang()]); ?></p>
+            <p><?php echo $settings['services_text_'.lang()]; ?></p>
           </div>
   
           <div class="row justify-content-center">
@@ -19,7 +19,7 @@
                   <div class="col-lg-4 col-md-6 icon-box">
                     <div class="icon"><i class="<?php echo e($service->icon); ?>"></i></div>
                     <h4 class="title"><a href="<?php echo e(route('service-details',[$service])); ?>"><?php echo e($service->title); ?></a></h4>
-                    <p class="description"><?php echo e($service->short_description); ?></p>
+                    <p class="description"><?php echo $service->short_description; ?></p>
                   </div>
                 <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
 

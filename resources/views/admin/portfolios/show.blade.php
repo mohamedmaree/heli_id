@@ -100,7 +100,7 @@
                                                             <div class="form-group">
                                                                 <div class="controls">
                                                                     <label for="account-name">{{__('admin.description')}} {{ $lang }}</label>
-                                                                    <textarea class="form-control" name="description[{{$lang}}]" id="" cols="30" rows="10"  placeholder="{{__('admin.write') . __('admin.description')}} {{ $lang }}">{{$portfolio->getTranslations('description')[$lang]??''}}</textarea>
+                                                                    <textarea class="form-control" name="description[{{$lang}}]" id="description_{{$lang}}_editor" cols="30" rows="10"  placeholder="{{__('admin.write') . __('admin.description')}} {{ $lang }}">{{$portfolio->getTranslations('description')[$lang]??''}}</textarea>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -164,5 +164,11 @@
         $('.show input').attr('disabled' , true)
         $('.show textarea').attr('disabled' , true)
         $('.show select').attr('disabled' , true)
+    </script>
+    <script src="https://cdn.ckeditor.com/4.16.2/full-all/ckeditor.js"></script>
+    <script>
+        @foreach(languages() as $lang)
+            CKEDITOR.replace( 'description_{{ $lang }}_editor' );
+        @endforeach
     </script>
 @endsection

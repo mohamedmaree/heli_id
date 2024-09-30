@@ -96,7 +96,7 @@
                                                             <div class="form-group">
                                                                 <div class="controls">
                                                                     <label for="account-name"><?php echo e(__('admin.description')); ?> <?php echo e($lang); ?></label>
-                                                                    <textarea class="form-control" name="description[<?php echo e($lang); ?>]" id="" cols="30" rows="10"  placeholder="<?php echo e(__('admin.write') . __('admin.description')); ?> <?php echo e($lang); ?>"><?php echo e($portfolio->getTranslations('description')[$lang]??''); ?></textarea>
+                                                                    <textarea class="form-control" name="description[<?php echo e($lang); ?>]" id="description_<?php echo e($lang); ?>_editor" cols="30" rows="10"  placeholder="<?php echo e(__('admin.write') . __('admin.description')); ?> <?php echo e($lang); ?>"><?php echo e($portfolio->getTranslations('description')[$lang]??''); ?></textarea>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -160,6 +160,12 @@
         $('.show input').attr('disabled' , true)
         $('.show textarea').attr('disabled' , true)
         $('.show select').attr('disabled' , true)
+    </script>
+    <script src="https://cdn.ckeditor.com/4.16.2/full-all/ckeditor.js"></script>
+    <script>
+        <?php $__currentLoopData = languages(); $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $lang): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+            CKEDITOR.replace( 'description_<?php echo e($lang); ?>_editor' );
+        <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
     </script>
 <?php $__env->stopSection(); ?>
 <?php echo $__env->make('admin.layout.master', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH /Users/mohmmedmaree/Desktop/projects/heli_id/resources/views/admin/portfolios/show.blade.php ENDPATH**/ ?>

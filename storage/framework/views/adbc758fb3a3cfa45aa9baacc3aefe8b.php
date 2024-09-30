@@ -181,7 +181,7 @@
                                           <div class="form-group">
                                               <div class="controls">
                                                   <label for="account-name"><?php echo e(__('admin.address_of_our_services_section_in_arabic')); ?></label>
-                                                  <textarea class="form-control" name="services_text_ar" id="" cols="30" rows="10" placeholder="<?php echo e(__('admin.address_of_our_services_section_in_arabic')); ?>"><?php echo e($data['services_text_ar']); ?></textarea>
+                                                  <textarea class="form-control" name="services_text_ar" id="services_text_ar_editor" cols="30" rows="10" placeholder="<?php echo e(__('admin.address_of_our_services_section_in_arabic')); ?>"><?php echo e($data['services_text_ar']); ?></textarea>
                                               </div>
                                           </div>
                                       </div>
@@ -190,7 +190,7 @@
                                           <div class="form-group">
                                               <div class="controls">
                                                   <label for="account-name"><?php echo e(__('admin.the_title_of_our_english_service_department')); ?></label>
-                                                  <textarea class="form-control" name="services_text_en" id="" cols="30" rows="10" placeholder="<?php echo e(__('admin.the_title_of_our_english_service_department')); ?>"><?php echo e($data['services_text_en']); ?></textarea>
+                                                  <textarea class="form-control" name="services_text_en" id="services_text_en_editor" cols="30" rows="10" placeholder="<?php echo e(__('admin.the_title_of_our_english_service_department')); ?>"><?php echo e($data['services_text_en']); ?></textarea>
                                               </div>
                                           </div>
                                       </div>
@@ -198,7 +198,7 @@
                                           <div class="form-group">
                                               <div class="controls">
                                                   <label for="account-name"><?php echo e(__('admin.team_in_arabic')); ?></label>
-                                                  <textarea class="form-control" name="team_text_ar" id="" cols="30" rows="10" placeholder="<?php echo e(__('admin.team_in_arabic')); ?>"><?php echo e($data['team_text_ar']); ?></textarea>
+                                                  <textarea class="form-control" name="team_text_ar" id="team_text_ar_editor" cols="30" rows="10" placeholder="<?php echo e(__('admin.team_in_arabic')); ?>"><?php echo e($data['team_text_ar']); ?></textarea>
                                               </div>
                                           </div>
                                       </div>
@@ -207,7 +207,7 @@
                                           <div class="form-group">
                                               <div class="controls">
                                                   <label for="account-name"><?php echo e(__('admin.team_in_english')); ?></label>
-                                                  <textarea class="form-control" name="team_text_en" id="" cols="30" rows="10" placeholder="<?php echo e(__('admin.team_in_english')); ?>"><?php echo e($data['team_text_en']); ?></textarea>
+                                                  <textarea class="form-control" name="team_text_en" id="team_text_en_editor" cols="30" rows="10" placeholder="<?php echo e(__('admin.team_in_english')); ?>"><?php echo e($data['team_text_en']); ?></textarea>
                                               </div>
                                           </div>
                                       </div>
@@ -215,7 +215,7 @@
                                           <div class="form-group">
                                               <div class="controls">
                                                   <label for="account-name"><?php echo e(__('admin.portfolio_in_arabic')); ?></label>
-                                                  <textarea class="form-control" name="portfolio_text_ar" id="" cols="30" rows="10" placeholder="<?php echo e(__('admin.portfolio_in_arabic')); ?>"><?php echo e($data['portfolio_text_ar']); ?></textarea>
+                                                  <textarea class="form-control" name="portfolio_text_ar" id="portfolio_text_ar_editor" cols="30" rows="10" placeholder="<?php echo e(__('admin.portfolio_in_arabic')); ?>"><?php echo e($data['portfolio_text_ar']); ?></textarea>
                                               </div>
                                           </div>
                                       </div>
@@ -224,7 +224,7 @@
                                           <div class="form-group">
                                               <div class="controls">
                                                   <label for="account-name"><?php echo e(__('admin.portfolio_in_english')); ?></label>
-                                                  <textarea class="form-control" name="portfolio_text_en" id="" cols="30" rows="10" placeholder="<?php echo e(__('admin.portfolio_in_english')); ?>"><?php echo e($data['portfolio_text_en']); ?></textarea>
+                                                  <textarea class="form-control" name="portfolio_text_en" id="portfolio_text_en_editor" cols="30" rows="10" placeholder="<?php echo e(__('admin.portfolio_in_english')); ?>"><?php echo e($data['portfolio_text_en']); ?></textarea>
                                               </div>
                                           </div>
                                       </div>
@@ -233,7 +233,7 @@
                                           <div class="form-group">
                                               <div class="controls">
                                                   <label for="account-name"><?php echo e(__('admin.the_title_of_our_partition_in_arabic')); ?></label>
-                                                  <textarea class="form-control" name="parteners_text_ar" id="" cols="30" rows="10" placeholder="<?php echo e(__('admin.the_title_of_our_partition_in_arabic')); ?>"><?php echo e($data['parteners_text_ar']); ?></textarea>
+                                                  <textarea class="form-control" name="parteners_text_ar" id="parteners_text_ar_editor" cols="30" rows="10" placeholder="<?php echo e(__('admin.the_title_of_our_partition_in_arabic')); ?>"><?php echo e($data['parteners_text_ar']); ?></textarea>
                                               </div>
                                           </div>
                                       </div>
@@ -241,7 +241,7 @@
                                           <div class="form-group">
                                               <div class="controls">
                                                   <label for="account-name"><?php echo e(__('admin.the_title_of_our_english_partition')); ?></label>
-                                                  <textarea class="form-control" name="parteners_text_en" id="" cols="30" rows="10" placeholder="<?php echo e(__('admin.the_title_of_our_english_partition')); ?>"><?php echo e($data['parteners_text_en']); ?></textarea>
+                                                  <textarea class="form-control" name="parteners_text_en" id="parteners_text_en_editor" cols="30" rows="10" placeholder="<?php echo e(__('admin.the_title_of_our_english_partition')); ?>"><?php echo e($data['parteners_text_en']); ?></textarea>
                                               </div>
                                           </div>
                                       </div>
@@ -250,7 +250,7 @@
                                           <div class="form-group">
                                               <div class="controls">
                                                   <label for="account-name"><?php echo e(__('admin.address_in_arabic_communication')); ?></label>
-                                                  <textarea class="form-control" name="contact_text_ar" id="" cols="30" rows="10" placeholder="<?php echo e(__('admin.address_in_arabic_communication')); ?>"><?php echo e($data['contact_text_ar']); ?></textarea>
+                                                  <textarea class="form-control" name="contact_text_ar" id="contact_text_ar_editor" cols="30" rows="10" placeholder="<?php echo e(__('admin.address_in_arabic_communication')); ?>"><?php echo e($data['contact_text_ar']); ?></textarea>
                                               </div>
                                           </div>
                                       </div>
@@ -259,7 +259,7 @@
                                             <div class="form-group">
                                                 <div class="controls">
                                                     <label for="account-name"><?php echo e(__('admin.address_in_english_communication')); ?></label>
-                                                    <textarea class="form-control" name="contact_text_en" id="" cols="30" rows="10" placeholder="<?php echo e(__('admin.address_in_english_communication')); ?>"><?php echo e($data['contact_text_en']); ?></textarea>
+                                                    <textarea class="form-control" name="contact_text_en" id="contact_text_en_editor" cols="30" rows="10" placeholder="<?php echo e(__('admin.address_in_english_communication')); ?>"><?php echo e($data['contact_text_en']); ?></textarea>
                                                 </div>
                                             </div>
                                         </div>
@@ -337,7 +337,7 @@
                                             <div class="form-group">
                                                 <div class="controls">
                                                     <label for="account-name"><?php echo e(__('admin.about_the_arabic_application')); ?></label>
-                                                    <textarea class="form-control" name="intro_about_ar" id="" cols="30" rows="10" placeholder="<?php echo e(__('admin.about_the_arabic_application')); ?>"><?php echo e($data['intro_about_ar']); ?></textarea>
+                                                    <textarea class="form-control" name="intro_about_ar" id="intro_about_ar_editor" cols="30" rows="10" placeholder="<?php echo e(__('admin.about_the_arabic_application')); ?>"><?php echo e($data['intro_about_ar']); ?></textarea>
                                                 </div>
                                             </div>
                                         </div>
@@ -345,7 +345,7 @@
                                             <div class="form-group">
                                                 <div class="controls">
                                                     <label for="account-name"><?php echo e(__('admin.about_the_english_application')); ?></label>
-                                                    <textarea class="form-control" name="intro_about_en" id="" cols="30" rows="10" placeholder="<?php echo e(__('admin.about_the_english_application')); ?>"><?php echo e($data['intro_about_en']); ?></textarea>
+                                                    <textarea class="form-control" name="intro_about_en" id="intro_about_en_editor" cols="30" rows="10" placeholder="<?php echo e(__('admin.about_the_english_application')); ?>"><?php echo e($data['intro_about_en']); ?></textarea>
                                                 </div>
                                             </div>
                                         </div>
@@ -371,7 +371,7 @@
                                             <div class="form-group">
                                                 <div class="controls">
                                                     <label for="account-name"><?php echo e(__('admin.intro_about_step1_ar')); ?></label>
-                                                    <textarea class="form-control" name="intro_about_step1_ar" id="" cols="30" rows="10" placeholder="<?php echo e(__('admin.intro_about_step1_ar')); ?>"><?php echo e($data['intro_about_step1_ar']); ?></textarea>
+                                                    <textarea class="form-control" name="intro_about_step1_ar" id="intro_about_step1_ar_editor" cols="30" rows="10" placeholder="<?php echo e(__('admin.intro_about_step1_ar')); ?>"><?php echo e($data['intro_about_step1_ar']); ?></textarea>
                                                 </div>
                                             </div>
                                         </div>
@@ -379,7 +379,7 @@
                                             <div class="form-group">
                                                 <div class="controls">
                                                     <label for="account-name"><?php echo e(__('admin.intro_about_step1_en')); ?></label>
-                                                    <textarea class="form-control" name="intro_about_step1_en" id="" cols="30" rows="10" placeholder="<?php echo e(__('admin.intro_about_step1_en')); ?>"><?php echo e($data['intro_about_step1_en']); ?></textarea>
+                                                    <textarea class="form-control" name="intro_about_step1_en" id="intro_about_step1_en_editor" cols="30" rows="10" placeholder="<?php echo e(__('admin.intro_about_step1_en')); ?>"><?php echo e($data['intro_about_step1_en']); ?></textarea>
                                                 </div>
                                             </div>
                                         </div>
@@ -404,7 +404,7 @@
                                             <div class="form-group">
                                                 <div class="controls">
                                                     <label for="account-name"><?php echo e(__('admin.intro_about_step2_ar')); ?></label>
-                                                    <textarea class="form-control" name="intro_about_step2_ar" id="" cols="30" rows="10" placeholder="<?php echo e(__('admin.intro_about_step2_ar')); ?>"><?php echo e($data['intro_about_step2_ar']); ?></textarea>
+                                                    <textarea class="form-control" name="intro_about_step2_ar" id="intro_about_step2_ar_editor" cols="30" rows="10" placeholder="<?php echo e(__('admin.intro_about_step2_ar')); ?>"><?php echo e($data['intro_about_step2_ar']); ?></textarea>
                                                 </div>
                                             </div>
                                         </div>
@@ -412,7 +412,7 @@
                                             <div class="form-group">
                                                 <div class="controls">
                                                     <label for="account-name"><?php echo e(__('admin.intro_about_step2_en')); ?></label>
-                                                    <textarea class="form-control" name="intro_about_step2_en" id="" cols="30" rows="10" placeholder="<?php echo e(__('admin.intro_about_step2_en')); ?>"><?php echo e($data['intro_about_step2_en']); ?></textarea>
+                                                    <textarea class="form-control" name="intro_about_step2_en" id="intro_about_step2_en_editor" cols="30" rows="10" placeholder="<?php echo e(__('admin.intro_about_step2_en')); ?>"><?php echo e($data['intro_about_step2_en']); ?></textarea>
                                                 </div>
                                             </div>
                                         </div>
@@ -437,7 +437,7 @@
                                             <div class="form-group">
                                                 <div class="controls">
                                                     <label for="account-name"><?php echo e(__('admin.intro_about_step3_ar')); ?></label>
-                                                    <textarea class="form-control" name="intro_about_step3_ar" id="" cols="30" rows="10" placeholder="<?php echo e(__('admin.intro_about_step3_ar')); ?>"><?php echo e($data['intro_about_step3_ar']); ?></textarea>
+                                                    <textarea class="form-control" name="intro_about_step3_ar" id="intro_about_step3_ar_editor" cols="30" rows="10" placeholder="<?php echo e(__('admin.intro_about_step3_ar')); ?>"><?php echo e($data['intro_about_step3_ar']); ?></textarea>
                                                 </div>
                                             </div>
                                         </div>
@@ -445,7 +445,7 @@
                                             <div class="form-group">
                                                 <div class="controls">
                                                     <label for="account-name"><?php echo e(__('admin.intro_about_step3_en')); ?></label>
-                                                    <textarea class="form-control" name="intro_about_step3_en" id="" cols="30" rows="10" placeholder="<?php echo e(__('admin.intro_about_step3_en')); ?>"><?php echo e($data['intro_about_step3_en']); ?></textarea>
+                                                    <textarea class="form-control" name="intro_about_step3_en" id="intro_about_step3_en_editor" cols="30" rows="10" placeholder="<?php echo e(__('admin.intro_about_step3_en')); ?>"><?php echo e($data['intro_about_step3_en']); ?></textarea>
                                                 </div>
                                             </div>
                                         </div>
@@ -473,8 +473,25 @@
 <?php $__env->startSection('js'); ?>
     <script src="<?php echo e(asset('admin/app-assets/vendors/js/forms/validation/jqBootstrapValidation.js')); ?>"></script>
     <script src="<?php echo e(asset('admin/app-assets/js/scripts/forms/validation/form-validation.js')); ?>"></script>
-  
+    <script src="https://cdn.ckeditor.com/4.16.2/full-all/ckeditor.js"></script>
+    <script>
+        <?php $__currentLoopData = languages(); $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $lang): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+            CKEDITOR.replace( 'services_text_<?php echo e($lang); ?>_editor' );
+            CKEDITOR.replace( 'team_text_<?php echo e($lang); ?>_editor' );
+            CKEDITOR.replace( 'portfolio_text_<?php echo e($lang); ?>_editor' );
+            CKEDITOR.replace( 'parteners_text_<?php echo e($lang); ?>_editor' );
+            CKEDITOR.replace( 'contact_text_<?php echo e($lang); ?>_editor' );
+            CKEDITOR.replace( 'intro_about_<?php echo e($lang); ?>_editor' );
+            CKEDITOR.replace( 'intro_about_step1_<?php echo e($lang); ?>_editor' );
+            CKEDITOR.replace( 'intro_about_step2_<?php echo e($lang); ?>_editor' );
+            CKEDITOR.replace( 'intro_about_step3_<?php echo e($lang); ?>_editor' );
+            
+        <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
+
+    </script>
+    
     <?php echo $__env->make('admin.shared.addImage', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
+  
   
 <?php $__env->stopSection(); ?>
 

@@ -6,7 +6,7 @@
           <div class="section-title">
             <h2>{{ __('site.team') }}</h2>
             <h3>{{ __('site.team2') }}</h3>
-            <p>{{$settings['team_text_'.lang()]}}</p>
+            <p>{!! $settings['team_text_'.lang()]!!}</p>
           </div>
   
           <div class="row justify-content-center">

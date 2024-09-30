@@ -7,7 +7,7 @@
           <div class="section-title">
             <h2><?php echo e(__('site.contact_us')); ?></h2>
             <h3><?php echo e(__('site.get_int_touch')); ?><span><?php echo e(__('site.us')); ?></span></h3>
-            <p><?php echo e($settings['contact_text_'.lang()]); ?></p>
+            <p><?php echo $settings['contact_text_'.lang()]; ?></p>
           </div>
   
           <div class="row justify-content-center">

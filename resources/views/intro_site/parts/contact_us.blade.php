@@ -7,7 +7,7 @@
           <div class="section-title">
             <h2>{{ __('site.contact_us') }}</h2>
             <h3>{{ __('site.get_int_touch') }}<span>{{ __('site.us') }}</span></h3>
-            <p>{{$settings['contact_text_'.lang()]}}</p>
+            <p>{!! $settings['contact_text_'.lang()] !!}</p>
           </div>
   
           <div class="row justify-content-center">

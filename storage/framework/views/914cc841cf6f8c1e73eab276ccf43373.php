@@ -1,11 +1,12 @@
-    <!-- ======= Team Section ======= -->
+   <?php if(count($teams)): ?>
+   <!-- ======= Team Section ======= -->
     <section id="team" class="team">
         <div class="container-fluid">
   
           <div class="section-title">
             <h2><?php echo e(__('site.team')); ?></h2>
             <h3><?php echo e(__('site.team2')); ?></h3>
-            <p><?php echo e($settings['team_text_'.lang()]); ?></p>
+            <p><?php echo $settings['team_text_'.lang()]; ?></p>
           </div>
   
           <div class="row justify-content-center">
@@ -33,4 +34,5 @@
           </div>
   
         </div>
-      </section><!-- End Team Section --><?php /**PATH /Users/mohmmedmaree/Desktop/projects/heli_id/resources/views/intro_site/parts/team.blade.php ENDPATH**/ ?>
+      </section><!-- End Team Section -->
+      <?php endif; ?><?php /**PATH /Users/mohmmedmaree/Desktop/projects/heli_id/resources/views/intro_site/parts/team.blade.php ENDPATH**/ ?>

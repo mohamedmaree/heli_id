@@ -5,7 +5,7 @@
         <div class="section-title">
           <h2><?php echo e(__('site.portfolio')); ?></h2>
           <h3><?php echo e(__('site.check_our')); ?> <span><?php echo e(__('site.portfolio')); ?></span></h3>
-          <p><?php echo e($settings['portfolio_text_'.lang()]); ?></p>
+          <p><?php echo $settings['portfolio_text_'.lang()]; ?></p>
         </div>
 
         <div class="row">

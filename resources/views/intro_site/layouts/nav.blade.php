@@ -2,17 +2,19 @@
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top header-inner-pages">
     <div class="container d-flex align-items-center justify-content-between">
+      <div class="d-flex align-items-center">
+        <a href="{{ route('intro') }}#hero" class="logo"><img src="{{$settings['intro_logo']}}" alt="" class="img-fluid"></a>
 
-      <h1 class="logo"><a href="{{ route('intro') }}">{{$settings['intro_name_'.lang()]}}</a></h1>
+      <h1 class="logo mx-3"><a href="{{ route('intro') }}">{{$settings['intro_name_'.lang()]}}</a></h1>
+      </div>
       <!-- Uncomment below if you prefer to use an image logo -->
-      <a href="{{ route('intro') }}#hero" class="logo"><img src="{{$settings['intro_logo']}}" alt="" class="img-fluid"></a>
 
       <nav id="navbar" class="navbar">
         <ul>
           <li><a class="nav-link scrollto active" href="{{ route('intro') }}#hero">{{ __('site.home') }}</a></li>
           <li><a class="nav-link scrollto" href="{{ route('intro') }}#about">{{ __('site.about_us') }}</a></li>
-          <li><a class="nav-link scrollto" href="{{ route('intro') }}#services">{{ __('site.services') }}</a></li>
-          <li><a class="nav-link  scrollto" href="{{ route('intro') }}#portfolio">{{ __('site.portfolio') }}</a></li>
+          <li><a class="nav-link scrollto" href="{{ route('intro') }}#services">Products & Solutions</a></li>
+          {{-- <li><a class="nav-link  scrollto" href="{{ route('intro') }}#portfolio">{{ __('site.portfolio') }}</a></li> --}}
           {{-- <li><a class="nav-link scrollto" href="{{ route('intro') }}#parteners">{{ __('site.parteners') }}</a></li> --}}
           @if(count($teams))
             <li><a class="nav-link scrollto" href="{{ route('intro') }}#team">{{ __('site.team') }}</a></li>
@@ -35,11 +37,11 @@
             </ul>
           </li> --}}
           <li><a class="nav-link scrollto" href="{{ route('intro') }}#contact">{{ __('site.contact_us') }}</a></li>
-          @if(lang() == 'ar')
+          {{-- @if(lang() == 'ar')
           <li><a class="nav-link" href="{{ route('change-lang',['en']) }}">English</a></li>
           @else
           <li><a class="nav-link" href="{{ route('change-lang',['ar']) }}">العربية</a></li>
-          @endif
+          @endif --}}
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
