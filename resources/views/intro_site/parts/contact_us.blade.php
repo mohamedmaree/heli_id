@@ -70,11 +70,11 @@
                       <div class="error-message"></div>
                       <div class="sent-message">Your message has been sent. Thank you!</div>
                     </div> --}}
-                    <button type="submit" style="border: 2px solid #428bca;
+                    <button type="submit" style="border: 2px solid rgb(255, 248, 55);
                       padding: 12px 35px;
                       transition: 0.4s;
-                      background: #428bca;
-                      color: #fff;
+                      background: rgb(255, 248, 55);
+                      color: #000;
                       border-radius: 4px;margin-top: 10px;">{{ __('site.send') }}</button>
                   </form>
                 </div>
